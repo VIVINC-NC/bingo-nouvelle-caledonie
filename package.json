@@ -1,0 +1,82 @@
+{
+     "name": "bingo-nc",
+     "version": "1.0.0",
+     "description": "Bingo de Nouvelle-Calédonie",
+     "dependencies": {
+       "react": "^18.2.0",
+       "react-dom": "^18.2.0",
+       "lucide-react": "^0.263.1"
+     }
+   }
+```
+
+4. Clique sur **"Valider la modification"** (en bas)
+
+---
+
+### **ÉTAPE 4️⃣ : Ajouter le Code Principal**
+
+1. Clique à nouveau sur **"Ajouter un fichier"** → **"Créer un nouveau fichier"**
+
+2. Tape le nom du fichier :
+```
+   App.jsx
+```
+
+3. Copie-colle **tout le code** que je t'ai créé (la partie JavaScript/React) dans la zone de texte
+
+4. Clique sur **"Valider la modification"**
+
+---
+
+### **ÉTAPE 5️⃣ : Créer le fichier HTML principal**
+
+1. **"Ajouter un fichier"** → **"Créer un nouveau fichier"**
+
+2. Nom du fichier :
+```
+   index.html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingo de Nouvelle-Calédonie</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel" src="App.jsx"></script>
+</body>
+</html>
+```
+
+4. Clique sur **"Valider la modification"**
+
+---
+
+### **ÉTAPE 6️⃣ : Connecter à Netlify**
+
+Maintenant que tu as ton code sur GitHub :
+
+1. Va sur **https://netlify.com**
+2. Clique sur **"Se connecter"** (Sign in)
+3. Choisis **"GitHub"** pour te connecter
+4. Autorise Netlify à accéder à tes repositories
+5. Clique sur **"Importer un projet depuis Git"** (ou "New site from Git")
+6. Sélectionne **`bingo-nouvelle-caledonie`** dans la liste
+7. Clique sur **"Déployer"** ou **"Deploy"**
+
+**Et voilà ! 🎉 Ton site est EN LIGNE !**
+
+Netlify va te donner une URL comme : `https://quelquechose.netlify.app`
+
+---
+
+## **📋 RÉSUMÉ RAPIDE**
+```
+GitHub = l'endroit où tu stockes ton code
+Netlify = l'endroit qui le met en ligne automatiquement
